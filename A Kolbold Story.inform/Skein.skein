@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0x02E5F7A0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Inform 7 for Windows</generator>
+  <activeNode nodeId="node-0x02E68518"/>
+  <item nodeId="node-0x02E5F7A0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">A Kolbold Story&#x000A;An Interactive Fiction by Spencer Apple, Colin Taylor, Derek&#x000A;Release 1 / Serial number 130301 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Hovel&#x000A;The hovel is cramped, made of mud, and precisely the right size to house two kolbolds and their 13 spawns.&#x000A;&#x000A;You can see leaf overhang, a hay matt, a pile of candlesticks and Pazpot here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">NO</temporary>
+    <children>
+      <child nodeId="node-0x02E5FB78"/>
+      <child nodeId="node-0x02E5FBE8"/>
+      <child nodeId="node-0x02A21260"/>
+      <child nodeId="node-0x02A23220"/>
+      <child nodeId="node-0x02E6FFD8"/>
+      <child nodeId="node-0x0A7F6EB0"/>
+      <child nodeId="node-0x0A7F7230"/>
+      <child nodeId="node-0x02E682E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E5FB78">
+    <command xml:space="preserve">go through leaf overhang</command>
+    <result xml:space="preserve">(first opening leaf overhang)&#x000A;&#x000A;Outside the Hovel&#x000A;You can see leaf overhang here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E5FBE8">
+    <command xml:space="preserve">go through the leaf overhang</command>
+    <result xml:space="preserve">(first opening leaf overhang)&#x000A;&#x000A;Outside the Hovel&#x000A;A wetter area directly outside of the hovel.&#x000A;&#x000A;You can see leaf overhang here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02A21260">
+    <command xml:space="preserve">go through the overhang</command>
+    <result xml:space="preserve">(first opening leaf overhang)&#x000A;&#x000A;Outside the Hovel&#x000A;A wetter area directly outside of the hovel.&#x000A;&#x000A;You can see leaf overhang here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E6AE50"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E6AE50">
+    <command xml:space="preserve">x hovel</command>
+    <result xml:space="preserve">A small lump of earth blends in to the surrounding dirt hills.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02A23220">
+    <command xml:space="preserve">You hide</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E6B1D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E6B1D8">
+    <command xml:space="preserve">Hide</command>
+    <result xml:space="preserve">What do you want to hide?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E6B248"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E6B248">
+    <command xml:space="preserve">hide yourself</command>
+    <result xml:space="preserve">You hide.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E6AEC0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E6AEC0">
+    <command xml:space="preserve">look around</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E6AF30"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E6AF30">
+    <command xml:space="preserve">look room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E6F948"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E6F948">
+    <command xml:space="preserve">turn left</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E6F9B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E6F9B8">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">(first opening leaf overhang)&#x000A;&#x000A;Outside the Hovel&#x000A;A wetter area directly outside of the hovel.&#x000A;&#x000A;You can see leaf overhang here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E6FA28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E6FA28">
+    <command xml:space="preserve">hide yourself</command>
+    <result xml:space="preserve">You hide.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E6FA98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E6FA98">
+    <command xml:space="preserve">hide yourself</command>
+    <result xml:space="preserve">You hide.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E6FB08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E6FB08">
+    <command xml:space="preserve">hide yourself</command>
+    <result xml:space="preserve">You hide.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E6FB78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E6FB78">
+    <command xml:space="preserve">hide inventory</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E6FBE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E6FBE8">
+    <command xml:space="preserve">hide overhang</command>
+    <result xml:space="preserve">You hide.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E6FC58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E6FC58">
+    <command xml:space="preserve">hide poop</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E6FCC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E6FCC8">
+    <command xml:space="preserve">hide hay matt</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E6FD38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E6FD38">
+    <command xml:space="preserve">hide a pile of candlesticks</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E6FDA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E6FDA8">
+    <command xml:space="preserve">pick up pile of candlesticks</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E6FFD8">
+    <command xml:space="preserve">explore room</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E70048"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E70048">
+    <command xml:space="preserve">look around room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E700B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E700B8">
+    <command xml:space="preserve">look at hove</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0A7F6D60"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0A7F6D60">
+    <command xml:space="preserve">look at hovel</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0A7F6DD0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0A7F6DD0">
+    <command xml:space="preserve">examine orc</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0A7F6EB0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0A7F6F20"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0A7F6F20">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">(first opening leaf overhang)&#x000A;&#x000A;Outside the Hovel&#x000A;A wetter area directly outside of the hovel.&#x000A;&#x000A;You can see leaf overhang here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0A7F6F90"/>
+      <child nodeId="node-0x0AA848F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0A7F6F90">
+    <command xml:space="preserve">talk to Orc</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0A7F7000"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0A7F7000">
+    <command xml:space="preserve">examine Orc</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0A7F7070"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0A7F7070">
+    <command xml:space="preserve">fight Orc</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0A7F70E0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0A7F70E0">
+    <command xml:space="preserve">peek Orc</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0A7F7150"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0A7F7150">
+    <command xml:space="preserve">look around</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0AA848F8">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Hovel&#x000A;The hovel is cramped, made of mud, and precisely the right size to house two kolbolds and their 13 spawns.&#x000A;&#x000A;You can see leaf overhang, a hay matt, a pile of candlesticks and Pazpot here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0AA84968"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0AA84968">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Outside the Hovel&#x000A;A wetter area directly outside of the hovel.&#x000A;&#x000A;You can see leaf overhang here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0AA849D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0AA849D8">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Outside1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0AA84A48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0AA84A48">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Outside the Hovel&#x000A;A wetter area directly outside of the hovel.&#x000A;&#x000A;You can see leaf overhang here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0AA84AB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0AA84AB8">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Hovel&#x000A;The hovel is cramped, made of mud, and precisely the right size to house two kolbolds and their 13 spawns.&#x000A;&#x000A;You can see leaf overhang, a hay matt, a pile of candlesticks and Pazpot here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0AA84B28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0AA84B28">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Outside the Hovel&#x000A;A wetter area directly outside of the hovel.&#x000A;&#x000A;You can see leaf overhang here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0AA84B98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0AA84B98">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0AA84C08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0AA84C08">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0AA84C78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0AA84C78">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Outside1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0AA84CE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0AA84CE8">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0AA84D58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0AA84D58">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Outside2&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0AA84DC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0AA84DC8">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Outside3&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0AA84E38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0AA84E38">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E67E18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E67E18">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E67E88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E67E88">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E67EF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E67EF8">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Outside2&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E67F68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E67F68">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E67FD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E67FD8">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Outside1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E68048"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E68048">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Outside2&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E680B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E680B8">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Outside3&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E68128"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E68128">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Outside2&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E68198"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E68198">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x0A7F7230">
+    <command xml:space="preserve">go outside</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0A7F72A0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0A7F72A0">
+    <command xml:space="preserve">go Outside the Hovel</command>
+    <result xml:space="preserve">I only understood you as far as wanting to go outside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0A7F7310"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0A7F7310">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">(first opening leaf overhang)&#x000A;&#x000A;Outside the Hovel&#x000A;A wetter area directly outside of the hovel.&#x000A;&#x000A;You can see leaf overhang here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0A7F7380"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0A7F7380">
+    <command xml:space="preserve">fight the orcs</command>
+    <result xml:space="preserve">I only understood you as far as wanting to fight the exterior of the hovel.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0A7F73F0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0A7F73F0">
+    <command xml:space="preserve">the rocs</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0A7F7460"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0A7F7460">
+    <command xml:space="preserve">the orcs</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0A7F74D0"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0A7F74D0">
+    <command xml:space="preserve">examine the orcs</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine the exterior of the hovel.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0AA846C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0AA846C8">
+    <command xml:space="preserve">talk to the orcs</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0AA84738"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0AA84738">
+    <command xml:space="preserve">speak to the orcs</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x0AA847A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x0AA847A8">
+    <command xml:space="preserve">talk the orcs</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x02E682E8">
+    <command xml:space="preserve">go west </command>
+    <result xml:space="preserve">(first opening leaf overhang)&#x000A;&#x000A;Outside the Hovel&#x000A;A wetter area directly outside of the hovel.&#x000A;&#x000A;You can see leaf overhang here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E68358"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E68358">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Outside1&#x000A;Nearby land #1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E683C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E683C8">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Outside2&#x000A;Nearby land #2&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E68438"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E68438">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Outside3&#x000A;Nearby land, contains necklace.&#x000A;&#x000A;Hmm... seems to be a "Necklace of human teeth".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E684A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E684A8">
+    <command xml:space="preserve">pick up necklace</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x02E68518"/>
+    </children>
+  </item>
+  <item nodeId="node-0x02E68518">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a necklace&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+</Skein>
