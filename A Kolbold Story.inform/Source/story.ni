@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 "A Kolbold Story" by Spencer Apple, Colin Taylor, Derrick Wong
 
 [Working on the hiding mechanic]
@@ -26,14 +25,13 @@ A monster is a kind of person.
 The Orcs is a monster.
 
 [--------------------------------------------------------------------------------------------------------------------------------------------------]
-=======
+
 "A Kolbold Story" by Spencer Apple, Colin Taylor
->>>>>>> e57f4bd027180c493deb0b5ea29acacdd26ab654
 
 There is a room called Hovel. 
 The description of the hovel is "The hovel is cramped, made of mud, and precisely the right size to house two kolbolds and their 13 spawns." 
 
-<<<<<<< HEAD
+
 There is a hay matt inside the hovel. The hay matt is a supporter.
 There is a pile of candlesticks inside the hovel.
 
@@ -43,7 +41,7 @@ The description of Pazpot is "A thin, short, hairy creature covered head to toe 
 There is a room called Outside the Hovel. 
 The description of Outside the Hovel is "A wetter area directly outside of the hovel."
 There is a monster called The Orcs outside the hovel.
-=======
+
 There is a hay matt inside the hovel.
 There is a pile of candlesticks inside the hovel.
 
@@ -52,13 +50,13 @@ The description of Pazpot is "A thin, short, hairy creature covered head to toe 
 
 There is a room called Outside the Hovel.
 The description of Outside the Hovel is "A wetter area directly outside of the hovel."
->>>>>>> e57f4bd027180c493deb0b5ea29acacdd26ab654
+
 
 The exterior of the hovel is scenery in Outside the hovel.
 The description of the exterior of the hovel is "A small lump of earth blends in to the surrounding dirt hills."
 
 There is a door called leaf overhang.
-<<<<<<< HEAD
+
 Leaf overhang is west of the Hovel and east of outside the hovel.
 
 The room called Outside1 is north of Outside the Hovel. "Nearby land #1"
@@ -94,6 +92,5 @@ The door called Tent Flap2 is east of the firepit and west of tent2.
 
 The orc encampment is a region. The firepit, tent1, tent2, and outside the gate are in the orc encampment.
 
-=======
 Leaf overhang is west of the Hovel and east of outside the hovel.
->>>>>>> e57f4bd027180c493deb0b5ea29acacdd26ab654
+
