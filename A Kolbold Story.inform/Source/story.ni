@@ -96,7 +96,7 @@ There is a room called  Red Orc Tent. Red Orc Tent is north of War Room Tent. "J
    [tent #4]
 There is a room called  Orange Orc Tent. Orange Orc Tent is west of the firepit and south of White Orc Tent.  "Nothing, but beds and that foul stench."[tent #5]                                                                                                                                                                                                       
 There is a room called  Black Orc Tent.  Black Orc Tent is southwest of the firepit and south of Orange Orc Tent.  
-[tent #5]
+   [tent #5]
 					[-----------------------------------]
 					[------ Orc Camp ----- (DOORS) -----]
 					[-----------------------------------]
