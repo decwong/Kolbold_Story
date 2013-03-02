@@ -79,18 +79,11 @@ Orc Camp begins when the player is in the orc encampment.
 When Orc Camp begins:
 	say "It's quiet.. Seems empty.  Hopefully they're in the Caves. "
 
-<<<<<<< HEAD
-
-										[------ Orc Camp ----- (ROOMS) -----]
- 
-=======
 					[-----------------------------------]
                                         [------ Orc Camp ----- (ROOMS) -----]
 					[-----------------------------------]
  
 [There is a room called Outside the Gate.]
->>>>>>> 308f56058ffd542241c4633f50a242bcbb17da93
-
                                                                                 
 There is a room called Firepit.  "Mmmm... firepit marshmallows sound good right now."
 
