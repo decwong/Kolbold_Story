@@ -68,6 +68,7 @@ The canyon is a region. Caravan1, Caravan2, and Caravan3 are in the canyon.
 
 Leaf overhang is west of the Hovel and east of outside the hovel.
 
+[---------------------------------------]
 [------ Orc Camp Skeleton---- (BEGIN)---]
 
 The orc encampment is a region. The firepit, War Room Tent, Red Orc Tent, White Orc Tent, Black Orc Tent, and Orange Orc Tent are in the orc encampment.
@@ -78,17 +79,12 @@ Orc Camp begins when the player is in the orc encampment.
 When Orc Camp begins:
 	say "It's quiet.. Seems empty.  Hopefully they're in the Caves. "
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                                                                [------ Orc Camp ----- (ROOMS) -----]
+					[-----------------------------------]
+                                        [------ Orc Camp ----- (ROOMS) -----]
+					[-----------------------------------]
  
- [There is a room called Outside the Gate.]
-=======
-                                        [------ Orc Camp ----- (ROOMS) -----]
->>>>>>> 365f9bbf61af8ce21a9cbf27002cde94f24f516b
-=======
-                                        [------ Orc Camp ----- (ROOMS) -----]
->>>>>>> 365f9bbf61af8ce21a9cbf27002cde94f24f516b
+[There is a room called Outside the Gate.]
+
                                                                                 
 There is a room called Firepit.  "Mmmm... firepit marshmallows sound good right now."
 
@@ -100,9 +96,11 @@ There is a room called  White Orc Tent. White Orc Tent is northwest of the firep
 There is a room called  Red Orc Tent. Red Orc Tent is north of War Room Tent. "Jail Cells? Can it be?!  ...a prison tent?!"         
    [tent #4]
 There is a room called  Orange Orc Tent. Orange Orc Tent is west of the firepit and south of White Orc Tent.  "Nothing, but beds and that foul stench."[tent #5]                                                                                                                                                                                                       
-There is a room called  Black Orc Tent.  Black Orc Tent is southwest of the firepit and south of Orange Orc Tent.                     [tent #5]
-
-										[------ Orc Camp ----- (DOORS) -----]
+There is a room called  Black Orc Tent.  Black Orc Tent is southwest of the firepit and south of Orange Orc Tent.  
+[tent #5]
+					[-----------------------------------]
+					[------ Orc Camp ----- (DOORS) -----]
+					[-----------------------------------]
 
 [The door called Spiked Barrior is north of outside the gate and south of the firepit.
 The door called Tent Flap1 is north of the firepit and south of tent1.
@@ -110,9 +108,11 @@ The door called Tent Flap2 is east of the firepit and west of tent2.]
 
 The door called Orc Base Gates is northwest of the outside hovel and southeast of the firepit.
 
-
-										[------ Orc Camp ----- (NPCs) -----]
+					[------------------------------------]
+					[------ Orc Camp ----- (NPCs) -------]
+					[------------------------------------]
 
 
 [------ Orc Camp Skeleton---- (END)---]
+[-------------------------------------]
 
