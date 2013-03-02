@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6G60
 
-status "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\CblorbModel.html" "C:\Users\DWong\Desktop\Kolbold_Story-master\A Kolbold Story.inform\Build\StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\CblorbModel.html" "C:\Users\DWong\Desktop\Kolbold_Story\A Kolbold Story.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Users\DWong\Desktop\Kolbold_Story-master\A Kolbold Story.inform"
-release to "C:\Users\DWong\Desktop\Kolbold_Story-master\A Kolbold Story Materials\Release"
+project folder "C:\Users\DWong\Desktop\Kolbold_Story\A Kolbold Story.inform"
+release to "C:\Users\DWong\Desktop\Kolbold_Story\A Kolbold Story Materials\Release"
 
 ! Blorb instructions
 
 storyfile leafname "A Kolbold Story.zblorb"
-storyfile "C:\Users\DWong\Desktop\Kolbold_Story-master\A Kolbold Story.inform\Build\output.z5" include
-ifiction "C:\Users\DWong\Desktop\Kolbold_Story-master\A Kolbold Story.inform\Metadata.iFiction" include
+storyfile "C:\Users\DWong\Desktop\Kolbold_Story\A Kolbold Story.inform\Build\output.z5" include
+ifiction "C:\Users\DWong\Desktop\Kolbold_Story\A Kolbold Story.inform\Metadata.iFiction" include
 cover "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
 picture 1 "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\DefaultCover.jpg"
 
@@ -22,7 +22,7 @@ placeholder [IFID] = "56BA9699-0785-42DE-A917-4F25B371B014"
 placeholder [RELEASE] = "1"
 placeholder [YEAR] = "2013"
 placeholder [TITLE] = "A Kolbold Story"
-placeholder [AUTHOR] = "Spencer Apple, Colin Taylor, Derek"
+placeholder [AUTHOR] = "Spencer Apple, Colin Taylor, Derrick Wong"
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release

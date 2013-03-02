@@ -25,8 +25,6 @@ The Orcs is a monster.
 
 [--------------------------------------------------------------------------------------------------------------------------------------------------]
 
-"A Kolbold Story" by Spencer Apple, Colin Taylor, and Derrick Wong
-
 There is a room called Hovel. 
 The description of the hovel is "The hovel is cramped, made of mud, and precisely the right size to house two kolbolds and their 13 spawns." 
 
@@ -40,16 +38,6 @@ The description of Pazpot is "A thin, short, hairy creature covered head to toe 
 There is a room called Outside the Hovel. 
 The description of Outside the Hovel is "A wetter area directly outside of the hovel."
 There is a monster called The Orcs outside the hovel.
-
-There is a hay matt inside the hovel.
-There is a pile of candlesticks inside the hovel.
-
-There is a person called Pazpot.
-The description of Pazpot is "A thin, short, hairy creature covered head to toe in miniature kolbolds smiles paitiently."
-
-There is a room called Outside the Hovel.
-The description of Outside the Hovel is "A wetter area directly outside of the hovel."
-
 
 The exterior of the hovel is scenery in Outside the hovel.
 The description of the exterior of the hovel is "A small lump of earth blends in to the surrounding dirt hills."
@@ -78,29 +66,35 @@ The room Caravan3 is south of Caravan2.
 
 The canyon is a region. Caravan1, Caravan2, and Caravan3 are in the canyon.
 
+Leaf overhang is west of the Hovel and east of outside the hovel.
 
+[------ Orc Camp Skeleton---- (BEGIN)---]
 There is a room called Outside the Gate.
 
-[------ Orc Camp -------]
-There is a room called Firepit. "Mmmm... firepit marshmallows sound good right now."
+There is a room called Firepit.  "Mmmm... firepit marshmallows sound good right now."
 
 Orc Camp is a scene.
 
 Orc Camp begins when the player is in the orc encampment.
-
 When Orc Camp begins:
 	say "It's quiet.. Seems empty.  Hopefully they're in the Caves. "
 
-There is a room called Tent1. 
-There is a room called Tent2.
-There is a room called Tent3.
-There is a room called Tent4.
+                                                                                [------ Orc Camp ----- (ROOMS) -----]
+                                                                                
+There is a room called War Room Tent. War Room Tent is north of the firepit. "Maps? Small Figures? ...this must be their War Room.  It sure smells like it."                                                                                                                                                                                                                [tent #1]
+There is a room called  Red Orc Tent. Red Orc Tent is north of War Room Tent. "Jail Cells? Can it be?!  ...a prison tent?!"         [tent #3]
+There is a room called  White Orc Tent. White Orc Tent is northwest of the firepit.  "Looks like an empty tent.."                        [tent #2]
+There is a room called  Orange Orc Tent. Orange Orc Tent is west of the firepit and south of White Orc Tent.  "Nothing, but beds and that foul stench."                                                                                                                                                                                                                     [tent #4]
+There is a room called  Black Orc Tent.  Black Orc Tent is southwest of the firepit and south of Orange Orc Tent.                     [tent #5]
 
-The door called Spiked Barrior is north of outside the gate and south of the firepit.
+										[------ Orc Camp ----- (DOORS) -----]
+
+The door called Orc Base Gates is northwest of the outside hovel and southeast of the firepit.
+[The door called Spiked Barrior is north of outside the gate and south of the firepit.
 The door called Tent Flap1 is north of the firepit and south of tent1.
-The door called Tent Flap2 is east of the firepit and west of tent2.
+The door called Tent Flap2 is east of the firepit and west of tent2.]
 
-The orc encampment is a region. The firepit, tent1, tent2, tent3, tent4 and outside the gate are in the orc encampment.
+The orc encampment is a region. The firepit, tent1, tent2, tent3, tent4, tent5 and outside the gate are in the orc encampment.
 
-Leaf overhang is west of the Hovel and east of outside the hovel.
+[------ Orc Camp Skeleton---- (END)---]
 
