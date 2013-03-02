@@ -7,6 +7,5 @@ Developed by: Spencer Apple, Colin Taylor and Derrick Wong
 
 Developed using the tool Inform 7. In order to build it, you will need to download the software. 
 A download link can be found here: http://inform7.com/ 
-=======
-Developed by: Spencer Apple and Colin Taylor
+
 
