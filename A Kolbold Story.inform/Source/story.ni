@@ -69,9 +69,8 @@ The canyon is a region. Caravan1, Caravan2, and Caravan3 are in the canyon.
 Leaf overhang is west of the Hovel and east of outside the hovel.
 
 [------ Orc Camp Skeleton---- (BEGIN)---]
-There is a room called Outside the Gate.
 
-There is a room called Firepit.  "Mmmm... firepit marshmallows sound good right now."
+The orc encampment is a region. The firepit, War Room Tent, Red Orc Tent, White Orc Tent, Black Orc Tent, and Orange Orc Tent are in the orc encampment.
 
 Orc Camp is a scene.
 
@@ -80,21 +79,32 @@ When Orc Camp begins:
 	say "It's quiet.. Seems empty.  Hopefully they're in the Caves. "
 
                                                                                 [------ Orc Camp ----- (ROOMS) -----]
+ 
+ [There is a room called Outside the Gate.]
                                                                                 
-There is a room called War Room Tent. War Room Tent is north of the firepit. "Maps? Small Figures? ...this must be their War Room.  It sure smells like it."                                                                                                                                                                                                                [tent #1]
-There is a room called  Red Orc Tent. Red Orc Tent is north of War Room Tent. "Jail Cells? Can it be?!  ...a prison tent?!"         [tent #3]
-There is a room called  White Orc Tent. White Orc Tent is northwest of the firepit.  "Looks like an empty tent.."                        [tent #2]
-There is a room called  Orange Orc Tent. Orange Orc Tent is west of the firepit and south of White Orc Tent.  "Nothing, but beds and that foul stench."                                                                                                                                                                                                                     [tent #4]
+There is a room called Firepit.  "Mmmm... firepit marshmallows sound good right now."
+
+   [tent #1]
+There is a room called War Room Tent. War Room Tent is north of the firepit. "Maps? Small Figures? ...this must be their War Room.  It sure smells like it."          
+   [tent #2]
+There is a room called  White Orc Tent. White Orc Tent is northwest of the firepit.  "Looks like an empty tent.."        
+   [tent #3]                                                                                                                                                                                                      
+There is a room called  Red Orc Tent. Red Orc Tent is north of War Room Tent. "Jail Cells? Can it be?!  ...a prison tent?!"         
+   [tent #4]
+There is a room called  Orange Orc Tent. Orange Orc Tent is west of the firepit and south of White Orc Tent.  "Nothing, but beds and that foul stench."[tent #5]                                                                                                                                                                                                       
 There is a room called  Black Orc Tent.  Black Orc Tent is southwest of the firepit and south of Orange Orc Tent.                     [tent #5]
 
 										[------ Orc Camp ----- (DOORS) -----]
 
-The door called Orc Base Gates is northwest of the outside hovel and southeast of the firepit.
 [The door called Spiked Barrior is north of outside the gate and south of the firepit.
 The door called Tent Flap1 is north of the firepit and south of tent1.
 The door called Tent Flap2 is east of the firepit and west of tent2.]
 
-The orc encampment is a region. The firepit, tent1, tent2, tent3, tent4, tent5 and outside the gate are in the orc encampment.
+The door called Orc Base Gates is northwest of the outside hovel and southeast of the firepit.
+
+
+										[------ Orc Camp ----- (NPCs) -----]
+
 
 [------ Orc Camp Skeleton---- (END)---]
 

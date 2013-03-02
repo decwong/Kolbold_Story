@@ -4292,7 +4292,7 @@ Global lightflag = false;
 ];
 
 
-Constant REQUISITION_STACK_SIZE = 3*47;
+Constant REQUISITION_STACK_SIZE = 3*42;
 Array requisition_stack --> REQUISITION_STACK_SIZE;
 Global requisition_stack_pointer = 0;
 
@@ -9393,11 +9393,6 @@ Array Map_Storage -->
  0 0 0 I120_orange_orc_tent I115_firepit 0 0 0 0 0 0 0 ! Exits from: I119_white_orc_tent
  I119_white_orc_tent 0 0 I121_black_orc_tent 0 0 I115_firepit 0 0 0 0 0 ! Exits from: I120_orange_orc_tent
  I120_orange_orc_tent I115_firepit 0 0 0 0 0 0 0 0 0 0 ! Exits from: I121_black_orc_tent
- 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I124_tent1
- 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I125_tent2
- 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I126_tent3
- 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I127_tent4
- 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I128_tent5
 ;
 
 Class VPH_Class;
@@ -10098,7 +10093,6 @@ Object I113_canyon ""
 Object I114_outside_the_gate ""
     class K1_room
     with short_name "Outside the Gate"
-    with map_region I123_orc_encampment
     has proper
     with vector 0
     with room_index -1
@@ -10132,6 +10126,7 @@ Object I117_war_room_tent ""
     class K1_room
     with short_name "War Room Tent"
     with description SC_14
+    with map_region I123_orc_encampment
     has proper
     with vector 0
     with room_index -1
@@ -10148,6 +10143,7 @@ Object I118_red_orc_tent ""
     class K1_room
     with short_name "Red Orc Tent"
     with description SC_15
+    with map_region I123_orc_encampment
     has proper
     with vector 0
     with room_index -1
@@ -10164,6 +10160,7 @@ Object I119_white_orc_tent ""
     class K1_room
     with short_name "White Orc Tent"
     with description SC_16
+    with map_region I123_orc_encampment
     has proper
     with vector 0
     with room_index -1
@@ -10180,6 +10177,7 @@ Object I120_orange_orc_tent ""
     class K1_room
     with short_name "Orange Orc Tent"
     with description SC_17
+    with map_region I123_orc_encampment
     has proper
     with vector 0
     with room_index -1
@@ -10195,6 +10193,7 @@ Object I120_orange_orc_tent ""
 Object I121_black_orc_tent ""
     class K1_room
     with short_name "Black Orc Tent"
+    with map_region I123_orc_encampment
     has proper
     with vector 0
     with room_index -1
@@ -10202,7 +10201,7 @@ Object I121_black_orc_tent ""
     with cap_short_name "Black Orc Tent"
     has mark_as_room
     with IK1_Count 16
-    with IK1_Link I124_tent1
+    with IK1_Link nothing
     with KD_Count 1
     with name 'black' 'orc' 'tent' 
 ;
@@ -10242,86 +10241,6 @@ Object I123_orc_encampment ""
     with KD_Count 9
     with name 'orc' 'encampment' 
     with action_bitmap 0 0 0 0 0 0 
-;
-
-Object I124_tent1 ""
-    class K1_room
-    with short_name "tent1"
-    with map_region I123_orc_encampment
-    has proper
-    with vector 0
-    with room_index -1
-    with list_together 0
-    with cap_short_name "Tent1"
-    has mark_as_room
-    with IK1_Count 17
-    with IK1_Link I125_tent2
-    with KD_Count 1
-    with name 'tent1' 
-;
-
-Object I125_tent2 ""
-    class K1_room
-    with short_name "tent2"
-    with map_region I123_orc_encampment
-    has proper
-    with vector 0
-    with room_index -1
-    with list_together 0
-    with cap_short_name "Tent2"
-    has mark_as_room
-    with IK1_Count 18
-    with IK1_Link I126_tent3
-    with KD_Count 1
-    with name 'tent2' 
-;
-
-Object I126_tent3 ""
-    class K1_room
-    with short_name "tent3"
-    with map_region I123_orc_encampment
-    has proper
-    with vector 0
-    with room_index -1
-    with list_together 0
-    with cap_short_name "Tent3"
-    has mark_as_room
-    with IK1_Count 19
-    with IK1_Link I127_tent4
-    with KD_Count 1
-    with name 'tent3' 
-;
-
-Object I127_tent4 ""
-    class K1_room
-    with short_name "tent4"
-    with map_region I123_orc_encampment
-    has proper
-    with vector 0
-    with room_index -1
-    with list_together 0
-    with cap_short_name "Tent4"
-    has mark_as_room
-    with IK1_Count 20
-    with IK1_Link I128_tent5
-    with KD_Count 1
-    with name 'tent4' 
-;
-
-Object I128_tent5 ""
-    class K1_room
-    with short_name "tent5"
-    with map_region I123_orc_encampment
-    has proper
-    with vector 0
-    with room_index -1
-    with list_together 0
-    with cap_short_name "Tent5"
-    has mark_as_room
-    with IK1_Count 21
-    with IK1_Link nothing
-    with KD_Count 1
-    with name 'tent5' 
 ;
 
 Constant I65_figure_of_cover = 1;
@@ -22378,7 +22297,7 @@ Constant SLOW_ROUTE_FINDING;
 #endif;
 
 Constant NUM_DOORS = 2;
-Constant NUM_ROOMS = 22;
+Constant NUM_ROOMS = 17;
 
 Array DoorRoutingViable -> NUM_DOORS+1;
 
@@ -22565,7 +22484,7 @@ Array FWMatrix --> NUM_ROOMS*NUM_ROOMS;
 ];
 #ENDIF;
 
-Constant MAX_ROUTE_LENGTH = 47 + 32;
+Constant MAX_ROUTE_LENGTH = 42 + 32;
 
 [ RelationRouteTo relation from to count  handler;
 	if (count) {
