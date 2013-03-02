@@ -79,7 +79,7 @@ Orc Camp begins when the player is in the orc encampment.
 When Orc Camp begins:
 	say "It's quiet.. Seems empty.  Hopefully they're in the Caves. "
 
-                                                                                [------ Orc Camp ----- (ROOMS) -----]
+                                        [------ Orc Camp ----- (ROOMS) -----]
                                                                                 
 There is a room called War Room Tent. War Room Tent is north of the firepit. "Maps? Small Figures? ...this must be their War Room.  It sure smells like it."                                                                                                                                                                                                                [tent #1]
 There is a room called  Red Orc Tent. Red Orc Tent is north of War Room Tent. "Jail Cells? Can it be?!  ...a prison tent?!"         [tent #3]
