@@ -19,14 +19,13 @@ Understand "hide [something]" as hiding. Understand "hide behind [something]" as
 		
 Report hiding the something: say "You hide."
 
-
 A monster is a kind of person.
 
 The Orcs is a monster.
 
 [--------------------------------------------------------------------------------------------------------------------------------------------------]
 
-"A Kolbold Story" by Spencer Apple, Colin Taylor
+"A Kolbold Story" by Spencer Apple, Colin Taylor, and Derrick Wong
 
 There is a room called Hovel. 
 The description of the hovel is "The hovel is cramped, made of mud, and precisely the right size to house two kolbolds and their 13 spawns." 
@@ -81,16 +80,27 @@ The canyon is a region. Caravan1, Caravan2, and Caravan3 are in the canyon.
 
 
 There is a room called Outside the Gate.
-There is a room called Firepit.
 
-There is a room called Tent1.
+[------ Orc Camp -------]
+There is a room called Firepit. "Mmmm... firepit marshmallows sound good right now."
+
+Orc Camp is a scene.
+
+Orc Camp begins when the player is in the orc encampment.
+
+When Orc Camp begins:
+	say "It's quiet.. Seems empty.  Hopefully they're in the Caves. "
+
+There is a room called Tent1. 
 There is a room called Tent2.
+There is a room called Tent3.
+There is a room called Tent4.
 
 The door called Spiked Barrior is north of outside the gate and south of the firepit.
 The door called Tent Flap1 is north of the firepit and south of tent1.
 The door called Tent Flap2 is east of the firepit and west of tent2.
 
-The orc encampment is a region. The firepit, tent1, tent2, and outside the gate are in the orc encampment.
+The orc encampment is a region. The firepit, tent1, tent2, tent3, tent4 and outside the gate are in the orc encampment.
 
 Leaf overhang is west of the Hovel and east of outside the hovel.
 
